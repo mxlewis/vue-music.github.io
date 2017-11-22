@@ -1,0 +1,236 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+.play_wrap {
+  height: 100%;
+}
+.play_head {
+  height: 5.8rem;
+  position: relative;
+}
+.play_head .more a {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background-color: #bfc1c0;
+}
+.play_head .goback {
+  position: absolute;
+  left: 1.6rem;
+  bottom: 0.36rem;
+}
+.play_head .songer_name {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.play_head .more {
+  position: absolute;
+  right: 1.48rem;
+  bottom: 0.72rem;
+}
+.play_content {
+  height: 34.2rem;
+}
+.play_content .play_content_head {
+  height: 4.84rem;
+}
+.play_songer_name {
+  height: 3.36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_songer_name span:nth-of-type(1),
+.play_songer_name span:nth-of-type(3) {
+  color: #a7a8a3;
+}
+.play_songer_name span:nth-of-type(2) {
+  font-size: 0.96rem;
+  color: #fff;
+}
+.effect {
+  height: 1.52rem;
+  margin-left: 2.4rem;
+}
+.effect p {
+  width: 16rem;
+  margin: 0 auto;
+}
+.effect p a {
+  width: 3.84rem;
+  height: 1.28rem;
+  border: 0.08rem solid #ffffff;
+  color: #fff;
+  border-radius: 0.16rem;
+  padding-left: 0.56rem;
+  padding-right: 0.56rem;
+}
+.effect p a.active {
+  border: 0.08rem solid #93989b;
+  color: #93989b;
+}
+.play_content_lyric {
+  text-align: center;
+  overflow: hidden;
+  height: 27.4rem;
+  padding-top: 2rem;
+  font-size: 1.12rem;
+  position: relative;
+}
+.play_content_lyric p {
+  padding-bottom: 0.8rem;
+  color: #f5d1d1;
+}
+.play_content_lyric .cur {
+  color: #31c37c;
+}
+.playprogress_wrap {
+  height: 8.68rem;
+}
+.playprogress_wrap .first_row {
+  height: 0.6rem;
+  padding-top: 0.32rem;
+}
+.first_row p {
+  width: 3.12rem;
+  margin: 0 auto;
+}
+.first_row p a {
+  width: 0.56rem;
+  height: 0.56rem;
+  border-radius: 50%;
+  background-color: #3a3d44;
+  margin-right: 0.36rem;
+}
+.first_row p a:nth-of-type(3) {
+  margin-right: 0;
+}
+.first_row p a.active {
+  background-color: #fff;
+}
+.playprogress_wrap .second_row {
+  height: 2.68rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_row .progress_time {
+  color: #fff;
+  padding-right: 0.64rem;
+}
+.second_row .total_time {
+  color: #fff;
+  padding-left: 0.64rem;
+}
+.second_row .process {
+  width: 22.44rem;
+  position: relative;
+}
+.process .strip {
+  width: 22.44rem;
+  height: 0.16rem;
+  background-color: #5e5f64;
+  position: absolute;
+}
+.strip .point {
+  width: 1.28rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background-color: #31c37c;
+  position: absolute;
+}
+.strip .point i {
+  background-color: #31c37c;
+  width: 1.28rem;
+  height: 1.28rem;
+  border-radius: 50%;
+  position: absolute;
+  right: -1.28rem;
+  top: -0.64rem;
+}
+.playprogress_wrap .three_row {
+  height: 5.16rem;
+  display: flex;
+  align-items: center;
+}
+.three_row .music_loop {
+  width: 1.92rem;
+  height: 1.6rem;
+  background: url("../img/ico-31.png") no-repeat;
+  background-size: cover;
+  margin-right: 3.08rem;
+  margin-left: 1.44rem;
+}
+.three_row .turn_off {
+  width: 17.24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.turn_off a:nth-of-type(1) {
+  width: 3.2rem;
+  height: 3.24rem;
+  background: url("../img/ico-33.png") no-repeat;
+  background-size: cover;
+}
+.turn_off a:nth-of-type(2) {
+  width: 5.16rem;
+  height: 5.16rem;
+  background: url("../img/ico-36.png") no-repeat;
+  background-size: cover;
+}
+.turn_off a:nth-of-type(3) {
+  width: 3.24rem;
+  height: 3.24rem;
+  background: url("../img/ico-34.png") no-repeat;
+  background-size: cover;
+}
+.three_row .turn_off a:nth-of-type(2) {
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
+.three_row .music_menu {
+  width: 1.76rem;
+  height: 1.68rem;
+  background: url("../img/ico-32.png") no-repeat;
+  background-size: cover;
+  margin-left: 3.2rem;
+}
+.play_bottom {
+  height: 4.8rem;
+  padding-left: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.play_bottom a {
+  width: 1.68rem;
+  height: 1.48rem;
+}
+.play_bottom .collection {
+  background: url("../img/ico-27.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .download {
+  background: url("../img/ico-28.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .forward {
+  height: 1.56rem;
+  background: url("../img/ico-29.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .leave_message {
+  height: 1.56rem;
+  background: url("../img/ico-30.png") no-repeat;
+  background-size: cover;
+}

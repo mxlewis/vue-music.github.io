@@ -1,0 +1,565 @@
+@rem:25rem;
+@border:1px solid #fa943e;
+html{
+  height:100%;
+  overflow: hidden;
+}
+body{
+  height: 100%;
+  overflow: auto;
+}
+//头部
+.moc_head{
+  height: 156/@rem;
+  padding-top: 49/@rem;
+  background-color: #31c37c;
+}
+.moc_nav{
+  height: 72/@rem;
+  display: flex;
+  align-items: center;
+}
+.menu{
+  width: 38/@rem;
+  height: 35/@rem;
+  background: url("../img/ico-1.png") no-repeat;
+  margin-left: 27/@rem;
+}
+.moc_nav div a{
+  font-size: 32/@rem;
+  margin-left: 53/@rem;
+  color: #fff;
+}
+.moc_nav div{
+  margin-left: 100/@rem;
+}
+.moc_nav div a.active{
+  font-weight: bold;
+}
+.moc_nav .add{
+  width: 36/@rem;
+  height: 36/@rem;
+  background: url("../img/ico-2.png") no-repeat;
+  margin-left: 137/@rem;
+}
+//搜索
+.search_wrap{
+  position: relative;
+}
+.search_pic{
+  width: 28/@rem;
+  height: 29/@rem;
+  background: url("../img/ico-3.png") no-repeat;
+  position: absolute;
+  left: 300/@rem;
+  top: 28/@rem;
+}
+.search{
+  height: 64/@rem;
+  width: 726/@rem;
+  background-color: #2aaa6d;
+  outline:none;
+  border:0px;
+  border-radius: 8/@rem;
+  margin-left: 12/@rem;
+  margin-top: 10/@rem;
+  font-size: 28/@rem;
+  text-align: center;
+  line-height: 64/@rem;
+  color: #fff;
+}
+//轮播图
+.pic_wrap{
+  position: relative;
+}
+.pic_wrap .list_pic{
+  height: 305/@rem;
+  overflow: hidden;
+}
+.list_pic a{
+  height: 305/@rem;
+}
+.list_pic a img{
+  width: 750/@rem;
+  height: 305/@rem;
+}
+.tab_btn_wrap{
+  z-index: 1;
+  width: 100%;
+  height: 16/@rem;
+  position: absolute;
+  left: 0;
+  bottom: 13/@rem;
+  display: flex;
+  justify-content: center;
+}
+.tab_btn_wrap a{
+  width: 16/@rem;
+  height: 16/@rem;
+  border-radius: 50%;
+  background-color: #d9dee4;
+  margin-left: 16/@rem;
+}
+.tab_btn_wrap a.active{
+  background-color: deeppink;
+}
+//类目
+.category_wrap{
+  height: 200/@rem;
+  padding-top: 40/@rem ;
+  padding-left: 42/@rem;
+}
+.category_wrap ul{
+  height: 161/@rem;
+}
+.category_wrap ul li{
+  width: 186/@rem;
+  margin-right: 50/@rem;
+  margin-bottom: 47/@rem;
+  height: 60/@rem;
+  display: flex;
+  align-items: center;
+}
+.category_wrap ul li img{
+  margin-right: 18/@rem;
+}
+.category_wrap ul li a{
+  font-size: 24/@rem;
+  color: black;
+}
+//歌单推荐
+.recommend_wrap{
+  height: 818/@rem;
+}
+.recommend_box{
+  width: 100%;
+  height: 112/@rem;
+  position: relative;
+}
+.recommend{
+  height: 112/@rem;
+  line-height: 70/@rem;
+  font-size: 32/@rem;
+  text-align: center;
+}
+.enterBtn{
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  position: absolute;
+  right: 30/@rem;
+  top: 35/@rem;
+}
+//清单
+.recommend_list li{
+  width: 247/@rem;
+  height: 321/@rem;
+  margin-bottom: 32/@rem;
+  margin-right: 3/@rem;
+}
+.recommend_list li img{
+  display: block;
+  width: 248/@rem;
+  height: 247/@rem;
+}
+.recommend_list li a{
+  display: block;
+  width: 218/@rem;
+  margin-left: 13/@rem;
+  margin-top: 16/@rem;
+  height: 56/@rem;
+  line-height: 30/@rem;
+  overflow: hidden;
+  font-size: 22/@rem;
+}
+//每日为你推荐30首
+.daily_recommend_wrap{
+  height: 748/@rem;
+}
+.daily_recommend_head{
+  width: 100%;
+  height: 109/@rem;
+  position: relative;
+}
+.daily_recommend{
+  height: 109/@rem;
+  line-height: 109/@rem;
+  text-align: center;
+}
+.daily_recommend_btn{
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  position: absolute;
+  right: 30/@rem;
+  top: 30/@rem;
+}
+.daily_recommend_content li{
+  height: 125/@rem;
+  margin-bottom: 3/@rem;
+}
+.daily_recommend_content li img{
+  width: 125/@rem;
+  height: 125/@rem;
+}
+.daily_recommend_content li .middle{
+  width: 538/@rem;
+  margin-left: 22/@rem;
+}
+.daily_recommend_content li .middle div{
+  margin-top: 22/@rem;
+}
+.daily_recommend_content li .middle p{
+  margin-top: 10/@rem;
+}
+.daily_recommend_content li .right{
+  height: 125/@rem;
+  line-height: 125/@rem;
+}
+//新歌速递
+.newSongs_wrap{
+  height: 434/@rem;
+  overflow: hidden;
+}
+.newSongs_head{
+  height: 112/@rem;
+  position: relative;
+}
+.newSongs_head span{
+  display: block;
+  width: 100%;
+  height: 112/@rem;
+  line-height: 112/@rem;
+  font-size: 32/@rem;
+  text-align: center;
+}
+.newSongs_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 30/@rem;
+}
+.newSongs_content li:nth-of-type(1){
+  margin-left: 0;
+}
+.newSongs_content li{
+  width: 246/@rem;
+  height: 323/@rem;
+  margin-left: 4/@rem;
+}
+.newSongs_content li img{
+  width: 247/@rem;
+  height: 248/@rem;
+}
+.newSongs_content li a{
+  display: block;
+  padding: 0 12/@rem;
+  font-size: 22/@rem;
+}
+//独家专区
+.sole_wrap{
+  height: 783/@rem;
+}
+.sole_head{
+  height: 145/@rem;
+  position: relative;
+}
+.sole_head span{
+  height: 145/@rem;
+  line-height: 145/@rem;
+  text-align: center;
+  display: block;
+  font-size: 32/@rem;
+}
+.sole_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 50/@rem;
+}
+.sole_content{
+  height: 639/@rem;
+}
+.sole_content li{
+  width: 374/@rem;
+  height: 286/@rem;
+  margin-left: 2/@rem;
+  margin-bottom: 35/@rem;
+}
+.sole_content li:nth-of-type(1),.sole_content li:nth-of-type(3){
+  margin-left: 0;
+}
+.sole_content li img{
+  width: 374/@rem;
+  height: 210/@rem;
+}
+.sole_content li a{
+  display: block;
+  padding-left: 12/@rem;
+}
+//精选电台
+.radio_station_wrap{
+  height: 783/@rem;
+}
+.radio_station_head{
+  height: 113/@rem;
+  position: relative;
+}
+.radio_station_head span{
+  display: block;
+  height: 113/@rem;
+  line-height: 113/@rem;
+  text-align: center;
+  font-size: 32/@rem;
+}
+.radio_station_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 35/@rem;
+}
+.radio_station_content{
+  height: 670/@rem;
+}
+.radio_station_content .item_one li{
+  width: 199/@rem;
+  height: 232/@rem;
+  margin-left: 25/@rem;
+  margin-right: 30/@rem;
+}
+.radio_station_content .item_one li:nth-of-type(3){
+  margin-right: 0;
+}
+.radio_station_content .item_one li img{
+  width: 199/@rem;
+  height: 197/@rem;
+}
+.radio_station_content .item_one li a{
+  display: block;
+  font-size: 22/@rem;
+  width: 100%;
+  height: 34/@rem;
+  text-align: center;
+}
+.radio_station_content .item_two{
+  height: 401/@rem;
+  margin-top: 39/@rem;
+}
+.radio_station_content .item_two li{
+  height: 401/@rem;
+  width: 246/@rem;
+  margin-left: 4/@rem;
+}
+.radio_station_content .item_two li:nth-of-type(1){
+  margin-left:0;
+}
+.radio_station_content .item_two .img{
+  width: 246/@rem;
+  height: 246/@rem;
+}
+.radio_station_content .item_two .detail{
+margin-left: 13/@rem;
+}
+.radio_station_content .item_two .detail .title{
+margin-top: 17/@rem;
+  font-size: 22/@rem;
+  color: #404040;
+}
+.radio_station_content .item_two .detail .anchor{
+   font-size: 18/@rem;
+  margin-top: 14/@rem;
+  color: #8b8b8b;
+ }
+.radio_station_content .item_two .detail .people_num{
+  display: flex;
+  margin-top: 20/@rem;
+}
+.radio_station_content .item_two .detail .people_num p{
+  margin-left: 10/@rem;
+}
+//专栏
+.column_wrap{
+  height: 618/@rem;
+}
+.column_head{
+  height: 109/@rem;
+  margin-top: 9/@rem;
+  position: relative;
+}
+.column_head div{
+  line-height: 109/@rem;
+  text-align: center;
+  font-size: 32/@rem;
+}
+.column_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 35/@rem;
+}
+.column_content{
+  height: 501/@rem;
+}
+.column_content li{
+  width: 373/@rem;
+  height: 223/@rem;
+  margin-left: 4/@rem;
+  margin-bottom: 27/@rem;
+}
+.column_content li:nth-of-type(1){
+  margin-left: 0;
+}
+.column_content li:nth-of-type(3){
+  margin-left: 0;
+}
+.column_content li img{
+  width: 373/@rem;
+  height: 149/@rem;
+}
+.column_content li p{
+  padding-left: 12/@rem;
+  padding-right: 12/@rem;
+  font-size: 22/@rem;
+}
+//乐人
+.lecolumn_wrap{
+  height: 438/@rem;
+}
+.lecolumn_head{
+  height: 110/@rem;
+  position: relative;
+  margin-top: 7/@rem;
+}
+.lecolumn_head div{
+  height: 110/@rem;
+  line-height: 110/@rem;
+  text-align: center;
+  font-size: 32/@rem;
+}
+.lecolumn_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 35/@rem;
+}
+.lecolumn_content{
+  height: 321/@rem;
+}
+.lecolumn_content li{
+  width: 246/@rem;
+  height: 321/@rem;
+  margin-left: 4/@rem;
+}
+.lecolumn_content li:nth-of-type(1){
+  margin-left:0;
+}
+.lecolumn_content li img{
+  width: 246/@rem;
+  height: 248/@rem;
+}
+.lecolumn_content li a{
+  display: block;
+  font-size: 22/@rem;
+  padding-left: 14/@rem;
+  padding-right: 42/@rem;
+}
+//MV推荐
+.mv_recommend_wrap{
+  height:801/@rem;
+}
+.mv_recommend_head{
+  margin-top: 35/@rem;
+  height: 109/@rem;
+  position: relative;
+}
+.mv_recommend_head div{
+  height: 109/@rem;
+  line-height: 109/@rem;
+  text-align: center;
+  font-size: 32/@rem;
+}
+.mv_recommend_head a{
+  position: absolute;
+  width: 38/@rem;
+  height: 39/@rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 30/@rem;
+  top: 35/@rem;
+}
+.mv_recommend_content{
+  height: 766/@rem;
+}
+.mv_recommend_content li{
+  width: 373/rem;
+  height: 299/@rem;
+  margin-left: 2/@rem;
+  margin-bottom: 30/@rem;
+}
+.mv_recommend_content li:nth-of-type(1),.mv_recommend_content li:nth-of-type(3){
+  margin-left:0;
+}
+.mv_recommend_content li img{
+  width: 374/@rem;
+  height: 210/@rem;
+}
+.mv_recommend_content li a{
+  display: block;
+  font-size: 26/@rem;
+  padding-left: 15/@rem;
+  padding-right: 40/@rem;
+}
+.mv_recommend_content li span{
+  display: block;
+  font-size: 24/@rem;
+  font-size: 20/@rem;
+  padding-left: 15/@rem;
+  padding-right: 40/@rem;
+  margin-top: 8/@rem;
+}
+//首页最底部播放
+.songs_play_wrap{
+  width: 100%;
+  height: 110/@rem;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #b2b2b2;
+  background-color: #f7f7f7;
+}
+.songs_play_left{
+  width: 214/@rem;
+  padding-left: 18/@rem;
+  padding-top: 10/@rem;
+  height: 100/@rem;
+}
+.songs_play_left p{
+  margin-top: 16/@rem;
+  margin-left: 14/@rem;
+}
+.songs_play_left p span{
+  display: block;
+}
+.songs_play_left p span:nth-of-type(1){
+  font-size: 26/@rem;
+}
+.songs_play_left p span:nth-of-type(2){
+  font-size: 22/@rem;
+  color: #838383;
+}
+.songs_play_right{
+  width: 169/@rem;
+  margin-right: 37/@rem;
+  padding-top: 24/@rem;
+}
+.songs_play_right a:nth-of-type(1){
+  margin-right: 40/@rem;
+}

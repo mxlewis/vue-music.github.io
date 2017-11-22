@@ -1,0 +1,243 @@
+@rem:25rem;
+@border:1px solid #fa943e;
+html{
+  height:100%;
+  overflow: hidden;
+}
+body{
+  height: 100%;
+  overflow: auto;
+  //background-color: #040509;
+}
+.play_wrap{
+  height: 100%;
+}
+//头部
+.play_head{
+  height: 145/@rem;
+  position: relative;
+}
+.play_head .more a{
+  width: 8/@rem;
+  height: 8/@rem;
+  border-radius: 50%;
+  background-color: #bfc1c0;
+}
+.play_head .goback{
+  position: absolute;
+  left: 40/@rem;
+  bottom: 9/@rem;
+}
+.play_head .songer_name{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: #fff;
+  font-size: 30/@rem;
+}
+.play_head .more{
+  position: absolute;
+  right: 37/@rem;
+  bottom: 18/@rem;
+}
+//中间可切换部分
+.play_content{
+  height: 855/@rem;
+}
+.play_content .play_content_head{
+  height: 121/@rem;
+}
+.play_songer_name{
+  height: 84/@rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_songer_name span:nth-of-type(1),.play_songer_name span:nth-of-type(3){
+  color: #a7a8a3;
+}
+.play_songer_name span:nth-of-type(2){
+  font-size: 24/@rem;
+  color: #fff;
+}
+.effect{
+  height: 38/@rem;
+  margin-left: 60/@rem;
+}
+.effect p{
+  width: 400/@rem;
+  margin: 0 auto;
+}
+.effect p a{
+  width: 96/@rem;
+  height: 32/@rem;
+  border: 2/@rem solid #fff;
+  color: #fff;
+  border-radius: 4/@rem;
+  padding-left: 14/@rem;
+  padding-right: 14/@rem;
+}
+.effect p a.active{
+  border: 2/@rem solid #93989b;
+  color: #93989b;
+}
+.play_content_lyric{
+  text-align: center;
+  overflow: hidden;
+  height: 685/@rem;
+  padding-top: 50/@rem;
+  font-size: 28/@rem;
+  position: relative;
+}
+.play_content_lyric p {
+  padding-bottom: 0.8rem;
+  color:#f5d1d1;
+}
+.play_content_lyric .cur{
+  color: #31c37c;
+}
+//播放进度
+.playprogress_wrap{
+  height: 217/@rem;
+}
+.playprogress_wrap .first_row{
+  height: 15/@rem;
+  padding-top: 8/@rem;
+}
+.first_row p{
+  width: 78/@rem;
+  margin: 0 auto;
+}
+.first_row p a{
+  width: 14/@rem;
+  height: 14/@rem;
+  border-radius: 50%;
+  background-color: #3a3d44;
+  margin-right: 9/@rem;
+}
+.first_row p a:nth-of-type(3){
+  margin-right: 0;
+}
+.first_row p a.active{
+  background-color: #fff;
+}
+.playprogress_wrap .second_row{
+  height: 67/@rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_row .progress_time{
+  color: #fff;
+  padding-right: 16/@rem;
+}
+.second_row .total_time{
+  color: #fff;
+  padding-left: 16/@rem;
+}
+.second_row .process{
+  width: 561/@rem;
+  position: relative;
+}
+.process .strip{
+  width: 561/@rem;
+  height: 4/@rem;
+  background-color: #5e5f64;
+  position: absolute;
+}
+.strip .point{
+  width: 32/@rem;
+  height: 5/@rem;
+  border-radius: 50%;
+  background-color: #31c37c;
+  position: absolute;
+}
+.strip .point i{
+  background-color: #31c37c;
+  width: 32/@rem;
+  height: 32/@rem;
+  border-radius: 50%;
+  position: absolute;
+  right: -32/@rem;
+  top: -16/@rem;
+}
+.playprogress_wrap .three_row{
+  height: 129/@rem;
+  display: flex;
+  align-items: center;
+}
+.three_row .music_loop{
+  width: 48/@rem;
+  height: 40/@rem;
+  background: url("../img/ico-31.png") no-repeat;
+  background-size: cover;
+  margin-right: 77/@rem;
+  margin-left: 36/@rem;
+}
+.three_row .turn_off{
+  width: 431/@rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.turn_off a:nth-of-type(1){
+  width: 80/@rem;
+  height: 81/@rem;
+  background: url("../img/ico-33.png") no-repeat;
+  background-size: cover;
+}
+.turn_off a:nth-of-type(2){
+  width: 129/@rem;
+  height: 129/@rem;
+  background: url("../img/ico-36.png") no-repeat;
+  background-size: cover;
+}
+.turn_off a:nth-of-type(3){
+  width: 81/@rem;
+  height: 81/@rem;
+  background: url("../img/ico-34.png") no-repeat;
+  background-size: cover;
+}
+.three_row .turn_off a:nth-of-type(2){
+  margin-left: 70/@rem;
+  margin-right: 70/@rem;
+}
+.three_row .music_menu{
+  width: 44/@rem;
+  height: 42/@rem;
+  background: url("../img/ico-32.png") no-repeat;
+  background-size: cover;
+  margin-left: 80/@rem;
+}
+//底部
+.play_bottom{
+  height: 120/@rem;
+  padding-left: 90/@rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.play_bottom a{
+  width: 42/@rem;
+  height: 37/@rem;
+
+}
+.play_bottom .collection{
+  background: url("../img/ico-27.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .download{
+  background: url("../img/ico-28.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .forward{
+  height: 39/@rem;
+  background: url("../img/ico-29.png") no-repeat;
+  background-size: cover;
+}
+.play_bottom .leave_message{
+  height: 39/@rem;
+  background: url("../img/ico-30.png") no-repeat;
+  background-size: cover;
+}

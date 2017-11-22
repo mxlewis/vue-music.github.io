@@ -1,0 +1,551 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+.moc_head {
+  height: 6.24rem;
+  padding-top: 1.96rem;
+  background-color: #31c37c;
+}
+.moc_nav {
+  height: 2.88rem;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  width: 1.52rem;
+  height: 1.4rem;
+  background: url("../img/ico-1.png") no-repeat;
+  margin-left: 1.08rem;
+}
+.moc_nav div a {
+  font-size: 1.28rem;
+  margin-left: 2.12rem;
+  color: #fff;
+}
+.moc_nav div {
+  margin-left: 4rem;
+}
+.moc_nav div a.active {
+  font-weight: bold;
+}
+.moc_nav .add {
+  width: 1.44rem;
+  height: 1.44rem;
+  background: url("../img/ico-2.png") no-repeat;
+  margin-left: 5.48rem;
+}
+.search_wrap {
+  position: relative;
+}
+.search_pic {
+  width: 1.12rem;
+  height: 1.16rem;
+  background: url("../img/ico-3.png") no-repeat;
+  position: absolute;
+  left: 12rem;
+  top: 1.12rem;
+}
+.search {
+  height: 2.56rem;
+  width: 29.04rem;
+  background-color: #2aaa6d;
+  outline: none;
+  border: 0px;
+  border-radius: 0.32rem;
+  margin-left: 0.48rem;
+  margin-top: 0.4rem;
+  font-size: 1.12rem;
+  text-align: center;
+  line-height: 2.56rem;
+  color: #fff;
+}
+.pic_wrap {
+  position: relative;
+}
+.pic_wrap .list_pic {
+  height: 12.2rem;
+  overflow: hidden;
+}
+.list_pic a {
+  height: 12.2rem;
+}
+.list_pic a img {
+  width: 30rem;
+  height: 12.2rem;
+}
+.tab_btn_wrap {
+  z-index: 1;
+  width: 100%;
+  height: 0.64rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.52rem;
+  display: flex;
+  justify-content: center;
+}
+.tab_btn_wrap a {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 50%;
+  background-color: #d9dee4;
+  margin-left: 0.64rem;
+}
+.tab_btn_wrap a.active {
+  background-color: deeppink;
+}
+.category_wrap {
+  height: 8rem;
+  padding-top: 1.6rem;
+  padding-left: 1.68rem;
+}
+.category_wrap ul {
+  height: 6.44rem;
+}
+.category_wrap ul li {
+  width: 7.44rem;
+  margin-right: 2rem;
+  margin-bottom: 1.88rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+}
+.category_wrap ul li img {
+  margin-right: 0.72rem;
+}
+.category_wrap ul li a {
+  font-size: 0.96rem;
+  color: black;
+}
+.recommend_wrap {
+  height: 32.72rem;
+}
+.recommend_box {
+  width: 100%;
+  height: 4.48rem;
+  position: relative;
+}
+.recommend {
+  height: 4.48rem;
+  line-height: 2.8rem;
+  font-size: 1.28rem;
+  text-align: center;
+}
+.enterBtn {
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.4rem;
+}
+.recommend_list li {
+  width: 9.88rem;
+  height: 12.84rem;
+  margin-bottom: 1.28rem;
+  margin-right: 0.12rem;
+}
+.recommend_list li img {
+  display: block;
+  width: 9.92rem;
+  height: 9.88rem;
+}
+.recommend_list li a {
+  display: block;
+  width: 8.72rem;
+  margin-left: 0.52rem;
+  margin-top: 0.64rem;
+  height: 2.24rem;
+  line-height: 1.2rem;
+  overflow: hidden;
+  font-size: 0.88rem;
+}
+.daily_recommend_wrap {
+  height: 29.92rem;
+}
+.daily_recommend_head {
+  width: 100%;
+  height: 4.36rem;
+  position: relative;
+}
+.daily_recommend {
+  height: 4.36rem;
+  line-height: 4.36rem;
+  text-align: center;
+}
+.daily_recommend_btn {
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+}
+.daily_recommend_content li {
+  height: 5rem;
+  margin-bottom: 0.12rem;
+}
+.daily_recommend_content li img {
+  width: 5rem;
+  height: 5rem;
+}
+.daily_recommend_content li .middle {
+  width: 21.52rem;
+  margin-left: 0.88rem;
+}
+.daily_recommend_content li .middle div {
+  margin-top: 0.88rem;
+}
+.daily_recommend_content li .middle p {
+  margin-top: 0.4rem;
+}
+.daily_recommend_content li .right {
+  height: 5rem;
+  line-height: 5rem;
+}
+.newSongs_wrap {
+  height: 17.36rem;
+  overflow: hidden;
+}
+.newSongs_head {
+  height: 4.48rem;
+  position: relative;
+}
+.newSongs_head span {
+  display: block;
+  width: 100%;
+  height: 4.48rem;
+  line-height: 4.48rem;
+  font-size: 1.28rem;
+  text-align: center;
+}
+.newSongs_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 1.2rem;
+}
+.newSongs_content li:nth-of-type(1) {
+  margin-left: 0;
+}
+.newSongs_content li {
+  width: 9.84rem;
+  height: 12.92rem;
+  margin-left: 0.16rem;
+}
+.newSongs_content li img {
+  width: 9.88rem;
+  height: 9.92rem;
+}
+.newSongs_content li a {
+  display: block;
+  padding: 0 0.48rem;
+  font-size: 0.88rem;
+}
+.sole_wrap {
+  height: 31.32rem;
+}
+.sole_head {
+  height: 5.8rem;
+  position: relative;
+}
+.sole_head span {
+  height: 5.8rem;
+  line-height: 5.8rem;
+  text-align: center;
+  display: block;
+  font-size: 1.28rem;
+}
+.sole_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 2rem;
+}
+.sole_content {
+  height: 25.56rem;
+}
+.sole_content li {
+  width: 14.96rem;
+  height: 11.44rem;
+  margin-left: 0.08rem;
+  margin-bottom: 1.4rem;
+}
+.sole_content li:nth-of-type(1),
+.sole_content li:nth-of-type(3) {
+  margin-left: 0;
+}
+.sole_content li img {
+  width: 14.96rem;
+  height: 8.4rem;
+}
+.sole_content li a {
+  display: block;
+  padding-left: 0.48rem;
+}
+.radio_station_wrap {
+  height: 31.32rem;
+}
+.radio_station_head {
+  height: 4.52rem;
+  position: relative;
+}
+.radio_station_head span {
+  display: block;
+  height: 4.52rem;
+  line-height: 4.52rem;
+  text-align: center;
+  font-size: 1.28rem;
+}
+.radio_station_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 1.4rem;
+}
+.radio_station_content {
+  height: 26.8rem;
+}
+.radio_station_content .item_one li {
+  width: 7.96rem;
+  height: 9.28rem;
+  margin-left: 1rem;
+  margin-right: 1.2rem;
+}
+.radio_station_content .item_one li:nth-of-type(3) {
+  margin-right: 0;
+}
+.radio_station_content .item_one li img {
+  width: 7.96rem;
+  height: 7.88rem;
+}
+.radio_station_content .item_one li a {
+  display: block;
+  font-size: 0.88rem;
+  width: 100%;
+  height: 1.36rem;
+  text-align: center;
+}
+.radio_station_content .item_two {
+  height: 16.04rem;
+  margin-top: 1.56rem;
+}
+.radio_station_content .item_two li {
+  height: 16.04rem;
+  width: 9.84rem;
+  margin-left: 0.16rem;
+}
+.radio_station_content .item_two li:nth-of-type(1) {
+  margin-left: 0;
+}
+.radio_station_content .item_two .img {
+  width: 9.84rem;
+  height: 9.84rem;
+}
+.radio_station_content .item_two .detail {
+  margin-left: 0.52rem;
+}
+.radio_station_content .item_two .detail .title {
+  margin-top: 0.68rem;
+  font-size: 0.88rem;
+  color: #404040;
+}
+.radio_station_content .item_two .detail .anchor {
+  font-size: 0.72rem;
+  margin-top: 0.56rem;
+  color: #8b8b8b;
+}
+.radio_station_content .item_two .detail .people_num {
+  display: flex;
+  margin-top: 0.8rem;
+}
+.radio_station_content .item_two .detail .people_num p {
+  margin-left: 0.4rem;
+}
+.column_wrap {
+  height: 24.72rem;
+}
+.column_head {
+  height: 4.36rem;
+  margin-top: 0.36rem;
+  position: relative;
+}
+.column_head div {
+  line-height: 4.36rem;
+  text-align: center;
+  font-size: 1.28rem;
+}
+.column_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 1.4rem;
+}
+.column_content {
+  height: 20.04rem;
+}
+.column_content li {
+  width: 14.92rem;
+  height: 8.92rem;
+  margin-left: 0.16rem;
+  margin-bottom: 1.08rem;
+}
+.column_content li:nth-of-type(1) {
+  margin-left: 0;
+}
+.column_content li:nth-of-type(3) {
+  margin-left: 0;
+}
+.column_content li img {
+  width: 14.92rem;
+  height: 5.96rem;
+}
+.column_content li p {
+  padding-left: 0.48rem;
+  padding-right: 0.48rem;
+  font-size: 0.88rem;
+}
+.lecolumn_wrap {
+  height: 17.52rem;
+}
+.lecolumn_head {
+  height: 4.4rem;
+  position: relative;
+  margin-top: 0.28rem;
+}
+.lecolumn_head div {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  text-align: center;
+  font-size: 1.28rem;
+}
+.lecolumn_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 1.4rem;
+}
+.lecolumn_content {
+  height: 12.84rem;
+}
+.lecolumn_content li {
+  width: 9.84rem;
+  height: 12.84rem;
+  margin-left: 0.16rem;
+}
+.lecolumn_content li:nth-of-type(1) {
+  margin-left: 0;
+}
+.lecolumn_content li img {
+  width: 9.84rem;
+  height: 9.92rem;
+}
+.lecolumn_content li a {
+  display: block;
+  font-size: 0.88rem;
+  padding-left: 0.56rem;
+  padding-right: 1.68rem;
+}
+.mv_recommend_wrap {
+  height: 32.04rem;
+}
+.mv_recommend_head {
+  margin-top: 1.4rem;
+  height: 4.36rem;
+  position: relative;
+}
+.mv_recommend_head div {
+  height: 4.36rem;
+  line-height: 4.36rem;
+  text-align: center;
+  font-size: 1.28rem;
+}
+.mv_recommend_head a {
+  position: absolute;
+  width: 1.52rem;
+  height: 1.56rem;
+  background: url("../img/ico.png") no-repeat;
+  right: 1.2rem;
+  top: 1.4rem;
+}
+.mv_recommend_content {
+  height: 30.64rem;
+}
+.mv_recommend_content li {
+  width: 373 rem;
+  height: 11.96rem;
+  margin-left: 0.08rem;
+  margin-bottom: 1.2rem;
+}
+.mv_recommend_content li:nth-of-type(1),
+.mv_recommend_content li:nth-of-type(3) {
+  margin-left: 0;
+}
+.mv_recommend_content li img {
+  width: 14.96rem;
+  height: 8.4rem;
+}
+.mv_recommend_content li a {
+  display: block;
+  font-size: 1.04rem;
+  padding-left: 0.6rem;
+  padding-right: 1.6rem;
+}
+.mv_recommend_content li span {
+  display: block;
+  font-size: 0.96rem;
+  font-size: 0.8rem;
+  padding-left: 0.6rem;
+  padding-right: 1.6rem;
+  margin-top: 0.32rem;
+}
+.songs_play_wrap {
+  width: 100%;
+  height: 4.4rem;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #b2b2b2;
+  background-color: #f7f7f7;
+}
+.songs_play_left {
+  width: 8.56rem;
+  padding-left: 0.72rem;
+  padding-top: 0.4rem;
+  height: 4rem;
+}
+.songs_play_left p {
+  margin-top: 0.64rem;
+  margin-left: 0.56rem;
+}
+.songs_play_left p span {
+  display: block;
+}
+.songs_play_left p span:nth-of-type(1) {
+  font-size: 1.04rem;
+}
+.songs_play_left p span:nth-of-type(2) {
+  font-size: 0.88rem;
+  color: #838383;
+}
+.songs_play_right {
+  width: 6.76rem;
+  margin-right: 1.48rem;
+  padding-top: 0.96rem;
+}
+.songs_play_right a:nth-of-type(1) {
+  margin-right: 1.6rem;
+}
